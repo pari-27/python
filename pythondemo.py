@@ -2,6 +2,6 @@ from flask import Flask
 app= Flask(__name__)
 @app.route('/')
 def hello_world():
-return "hello world"
+ return "hello world"
 if __name__=='pythondemo':
-app.run()
+ app.run()
